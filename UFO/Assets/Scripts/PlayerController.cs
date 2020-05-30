@@ -1,7 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/**
+ * Se encarga de mover al Player a través
+ * de la informacion obtenida a través del
+ * input
+ */
 public class PlayerController : MonoBehaviour
 {
 	public float velocity = 5f;														// Permite establecer un multiplicador de velocidad desde Unity
